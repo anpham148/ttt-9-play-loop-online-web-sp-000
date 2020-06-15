@@ -42,6 +42,6 @@ def play(board)
   until user_move == 9
     turn(board)
     user_move += 1
-    break
+    
   end
 end
