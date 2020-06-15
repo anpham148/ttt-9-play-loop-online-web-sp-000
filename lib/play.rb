@@ -39,7 +39,7 @@ end
 def play(board)
   turn(board)
   user_move = 0
-  until user_move = 9
+  until user_move == 9
     turn(board)
     user_move += 1
   end
